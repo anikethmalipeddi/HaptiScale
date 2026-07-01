@@ -1,0 +1,25 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Python (training)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Trained models are added deliberately, not committed by default
+training/*.mlmodel
+training/*.mlmodelc
+training/data/
